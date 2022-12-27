@@ -1,15 +1,14 @@
 #!/bin/bash
 
-##########################################################
-# Creator: Hifumi1337                                    #
-# Version: 0.1.3                                         #
-# Project: https://github.com/Hifumi1337/steam-for-kali  #
-##########################################################
+##############################################################
+# Creator: azazelm3dj3d                                      #
+# Learn more: https://github.com/azazelm3dj3d/steam-for-kali #
+##############################################################
 
 echo ""
-echo "Creator: Hifumi1337 (https://github.com/Hifumi1337)"
-echo "Version: 0.1.3"
-echo "Project: https://github.com/Hifumi1337/steam-for-kali"
+echo "Creator: azazelm3dj3d (https://github.com/azazelm3dj3d)"
+echo "Version: 0.1.4"
+echo "Learn more: https://github.com/azazelm3dj3d/steam-for-kali"
 echo ""
 
 function installSteam() {
@@ -34,17 +33,12 @@ function installSteam() {
 
 installSteam
 
-function testSteam(){
-    steam
-}
-
-
 echo -n "Would you like to open Steam (y/n)? "
 read openSteam
 
 if [ "$openSteam" == "y" ]
 then
-    testSteam
+    steam
 else
     echo ""
     echo "Thank you for using Steam for Kali. Have a good day!"
