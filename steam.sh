@@ -1,14 +1,14 @@
 #!/bin/bash
 
-##############################################################
-# Creator: azazelm3dj3d                                      #
-# Learn more: https://github.com/azazelm3dj3d/steam-for-kali #
-##############################################################
+################################################################
+# Creator: battleoverflow                                      #
+# Learn more: https://github.com/battleoverflow/steam-for-kali #
+################################################################
 
 echo ""
-echo "Creator: azazelm3dj3d (https://github.com/azazelm3dj3d)"
+echo "Creator: battleoverflow (https://github.com/battleoverflow)"
 echo "Version: 0.1.4"
-echo "Learn more: https://github.com/azazelm3dj3d/steam-for-kali"
+echo "Learn more: https://github.com/battleoverflow/steam-for-kali"
 echo ""
 
 function installSteam() {
